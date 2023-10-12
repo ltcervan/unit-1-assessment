@@ -7,7 +7,7 @@ body {
     height: 100vh;
     margin: 0;
 }
-span {
+#count {
     border-color: gray;
     font-size: 200px;
     height: 70px;
