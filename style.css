@@ -32,5 +32,6 @@ button {
     color: white;
 }
 button:hover {
-    color: white
+    background-color: white;
+    color: gray;
 }
