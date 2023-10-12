@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+span {
+    border-color: gray;
+    font-size: 200px;
+    height: 70px;
+    width: 85px;
+}
+input {
+    background: none;
+    border: 2px solid gray;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+}
+button {
+    height: 70px;
+    width: 70px;
+    background: gray;
+    font-size: 30px;
+    border: 2px solid gray;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+    color: white;
+}
+button:hover {
+    color: white
+}
