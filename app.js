@@ -1,5 +1,5 @@
 console.log('This is a counter');
-// Accessing elements
+// Accessing elements ==== Num Counter =====
 const countNum = document.getElementById("count");
 const countInput = document.getElementById("countInput");
 const plusButton = document.getElementById("increase");
@@ -29,17 +29,10 @@ minusButton.addEventListener("click", function () {
 });
 newSum();
 
-// btns.forEach(btn => {
-//     btn.addEventListener('click', (e) =>{
-//         const styles = e.currentTarget.classList
-//         if(styles.contains('+')){
-//             count++;
-//         }
-//         counter.textContent = count;
-//     })
-    
-// });
-
-
-// console.log(count);
+// Accessing elements ==== Letter Counter =====
+// const countNum = document.getElementById("count");
+// const countInput = document.getElementById("countInput");
+// const plusButton = document.getElementById("increase");
+// const minusButton = document.getElementById("decrease");
+// let count = 0;
 
